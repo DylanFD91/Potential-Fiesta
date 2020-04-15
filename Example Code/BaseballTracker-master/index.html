@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Baseball Tracker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <span>
+      <button onclick="getThisHitter(1)">Get This Hitter</button>
+    </span>
+    <br>
+    <br>
+    <div>
+      <label>
+        First name:<input type="text" id="firstName">
+        Last name: <input type="text" id="lastName">
+        Position: <input type="text" id="position">
+        At Bats: <input type="text" id="atBats">
+        Runs: <input type="text" id="runs">
+        Home Runs: <input type="text" id="homeRuns">
+        RBI: <input type="text" id="rbi">
+        Batting Average: <input type="text" id="battingAverage">
+      </label>
+      <button onclick="createHitter()">Create</button>
+    </div>
+    <br>
+    <div class="iterate">
+        <table class="myTable">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Position</th>
+              <th>At Bats</th>
+              <th>Runs</th>
+              <th>Home Runs</th>
+              <th>RBI</th>
+              <th>Batting Average</th>
+            </tr>
+          </thead>
+          <tbody class="playerData">
+          </tbody>
+        </table>
+      </div>
+  </body>
+</html>
