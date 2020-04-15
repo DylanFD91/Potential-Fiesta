@@ -1,0 +1,9 @@
+What is the task you are trying to accomplish? What is the goal? 
+We are trying to update a specific animals values with the passed in information.
+
+What do you think the problem or impediment is? (answer below)
+Utilizing the switch case and the foreach loop, to go over each value of the animal from the database that we are trying to update and the passed in values from the console. Comparing them and updating the differences.
+
+
+What have you specifically tried in your code? (answer below)
+So far i've mostly done research since im not entirely sure how to use the switch case in this manner. But I have tried some different dot notations and played around with syntax but nothing to specific.
